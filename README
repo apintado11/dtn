@@ -11,4 +11,6 @@ The quadkey is used to find  matching asset(s) for the given location.
 An alert will be generated on the console for the strike if and only if another alert has not already been generated
 for the given quadkey AND for the given owner.
 
-
+Additional Questions: 
+If we put this code into production, but found it too slow, or it needed to scale to many more users or more frequent strikes, what are the first things you would think of to speed it up?
+A: To optimize this logic to handle a large load, we would need to reduce the amount of loops utilized. If a DB is involved, then we would implement indexing.
