@@ -1,0 +1,13 @@
+Instructions to run:
+1. select lightingService.js
+2. click run
+
+Details:
+lightingService.js iterates through a json file of lighting strikes.
+The service will do a formatting check for missing commas.
+Once satisfied, the service will iterate though each strike and calculate the quadkey using an npm package.
+The quadkey is used to find  matching asset(s) for the given location.
+An alert will be generated on the console for the strike if and only if another alert has not already been generated
+for the given quadkey AND for the given owner.
+
+
