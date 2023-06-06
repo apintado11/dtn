@@ -1,6 +1,7 @@
 Instructions to run:
 1. select lightingService.js
-2. click run
+2. run npm i
+3. click run
 
 Details:
 lightingService.js iterates through a json file of lighting strikes.
